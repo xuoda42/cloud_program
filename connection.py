@@ -1,12 +1,12 @@
 import psycopg2
 
 conn = psycopg2.connect("""
-    host=rc1b-1axp7jy9wejutqav.mdb.yandexcloud.net
+    host=<хост>
     port=6432
     sslmode=verify-full
     dbname=db1
     user=user1
-    password=152jojo152
+    password=<пароль от базы>
     target_session_attrs=read-write
 """)
 
