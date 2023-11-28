@@ -4,26 +4,6 @@ import telebot
 from connection import conn, get_elements_as_dict
 
 bot = telebot.TeleBot('6762016487:AAESde0vV2nnhs96rAseDHyAEAsGjUNenC8')
-CELEBRETIES_PHOTO = {
-    'Майкл С. Холл': 'http://kino-teatr.ru/news/26434/232892.jpg',
-    'Оливье Рихтерс': 'https://mx.web.img3.acsta.net/pictures/21/07/02/15/26/4122618.jpg',
-    'Стефан Руссо': 'https://avatars.mds.yandex.net/i?id=e20cb1c4903fb769845d41a694966dce-4248994-images-thumbs&n=13',
-    'Хит Леджер': 'https://u2.9111s.ru/uploads/202303/29/ca383a7aa7668a901f9b65383ac0a1b4.jpg',
-    'Николай Басков': 'https://s.mediasole.ru/images/736/736885/original.jpg',
-    'Лэйрд Хэмилтон': 'https://pagesix.com/wp-content/uploads/sites/3/2016/08/spl1331778_001.jpg?quality=90&strip=all&w=1200',
-    'Андрей Григорьев-Апполонов': 'https://bp22.ru/wp-content/uploads/f/0/3/f03d2c6076edb6b996e6723507147471.jpeg',
-    'Бенедикт Камбербэтч': 'https://i.pinimg.com/originals/9f/0a/43/9f0a43309cf0436ebc1459961a41c71e.jpg',
-    'Руперт Гринт': 'https://4.bp.blogspot.com/-RHVQN1374l4/Ts8sDwqWfhI/AAAAAAAACCg/lTbrjnJQQf0/s1600/Rupert_Grint4.jpeg',
-    'Хейли Макфарланд': 'https://i.pinimg.com/originals/cd/fd/7a/cdfd7aa615b21ecd7349c70b5e7d2f1f.jpg',
-    'Иззи Стил': 'https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/0570100c-9dcd-4bca-881a-a82f6ccc5c9b/1920x',
-    'Пейдж Спара': 'https://uhd.name/uploads/posts/2022-08/1661382104_24-uhd-name-p-peidzh-spara-krasivo-28.jpg',
-    'Тай Лоусон': 'https://celebers.com/wp-content/uploads/2020/01/Ty-Lawson-300x400-1.jpg',
-    'Алина Ковалевская': 'https://almode.ru/uploads/posts/2021-02/1613737369_7-p-alina-kovalevskaya-7.jpg',
-    'Сорайя Арнелас': 'https://sorayaarnelas.info/pictures/soraya_05122021.jpg',
-    'Айла Фишер': 'https://almode.ru/uploads/posts/2021-03/1617033058_62-p-aila-fisher-64.jpg',
-    'Николь Кидман': 'https://almode.ru/uploads/posts/2021-03/1617033211_29-p-nikol-kidman-29.jpg',
-    'Джессика Честейн': 'https://www.kino-teatr.ru/news/13965/130679.jpg',
-}
 
 
 class Gender:
