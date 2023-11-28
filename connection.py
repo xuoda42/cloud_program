@@ -6,11 +6,11 @@ import psycopg2
 #     sslmode=verify-full
 #     dbname=db1
 #     user=user1
-#     password=152jojo152
+#     password=<password>
 #     target_session_attrs=read-write
 # """)
 
-conn2 = psycopg2.connect("host=185.86.145.31 dbname=PostgreSQL-2483 user=user password=7M3YHV7+RA2Gh8373")
+conn2 = psycopg2.connect("host=185.86.145.31 dbname=PostgreSQL-2483 user=user password=<password>")
 
 
 def get_cursor_columns(cursor):
