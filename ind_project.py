@@ -3,7 +3,7 @@ from telebot import types
 import telebot
 from connection import conn, get_elements_as_dict
 
-bot = telebot.TeleBot('6762016487:AAESde0vV2nnhs96rAseDHyAEAsGjUNenC8')
+bot = telebot.TeleBot('токен')
 
 
 class Gender:
